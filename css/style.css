@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 /*--------------- INDEX -------------*/
 #logo__principal {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
@@ -133,7 +133,7 @@
 }
 
 .preguntas__protocolo {
-  background-color: #3AAF77;
+  background-color: black;
   color: #CED5C7;
   font-size: 2.5rem;
   border: 1px solid black;
@@ -212,6 +212,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -228,6 +231,7 @@
 .actividad__descripcion {
   font-size: 2em;
   text-align: center;
+  margin: 0 1em;
 }
 
 .btn {
@@ -272,6 +276,11 @@
   text-align: center;
   width: 25rem;
   margin: 1em;
+}
+
+.producto__img-top {
+  width: 20em;
+  height: 20em;
 }
 
 .producto__title {
@@ -337,8 +346,8 @@
 /*--------------- CONTACTO -------------*/
 .titulo__contacto {
   color: #3AAF77;
-  font-size: 2em;
-  margin: 2em;
+  font-size: 3em;
+  margin: 1em;
 }
 
 .formulario__mapa {
@@ -367,12 +376,30 @@
   margin: 2em;
 }
 
+.form-label {
+  font-size: 2em;
+}
+
+#nombre, #telefono, #consulta {
+  font-size: 1em;
+  width: 60em;
+}
+
+#consulta {
+  height: 20em;
+}
+
 .mapa {
-  color: black;
+  color: #3AAF77;
   font-size: 2rem;
   width: 70rem;
   height: 70rem;
   margin: 2em;
+}
+
+.iframe__mapa {
+  width: 20em;
+  height: 20em;
 }
 
 .error {
@@ -454,6 +481,8 @@ header {
   width: 3rem;
   color: #3AAF77;
   margin: 0.5em;
+  z-index: 2;
+  border: 1px  #3AAF77;
 }
 
 .footer__horizontal {

@@ -2,8 +2,8 @@
 
 .titulo__contacto {
   color: $color_titulos;
-  font-size: $size_titulos/4;
-  margin: 2em;
+  font-size: 3em;
+  margin: 1em;
 }
 
 .formulario__mapa {
@@ -20,10 +20,28 @@
   margin: 2em;
 }
 
+.form-label {
+  font-size: 2em;
+}
+
+#nombre, #telefono, #consulta {
+  font-size: 1em;
+  width: 60em;
+}
+
+#consulta {
+  height: 20em;
+}
+
 .mapa {
-  color: black;
+  color: $color_titulos;
   font-size: 2rem;
   width: 70rem;
   height: 70rem;
   margin: 2em;
+}
+
+.iframe__mapa {
+  width: 20em;
+  height: 20em;
 }

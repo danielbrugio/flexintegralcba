@@ -1,0 +1,187 @@
+/*----------MEDIA QUERY------------*/
+@media (max-width: 1030px) {
+  /*----------GENERALES------------*/
+  header {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nav {
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  a {
+    text-decoration: none;
+    color: #65E298;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+  }
+  a:hover {
+    color: #3AAF77;
+  }
+  .logoNav {
+    background-color: transparent;
+    width: 10em;
+    height: 10em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .redes__sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    position: relative;
+    margin: 4em;
+  }
+  .redes__sociales img {
+    margin: 1em;
+  }
+  /*----------HORARIOS------------*/
+  .titulo__horarios {
+    color: #3AAF77;
+    font-size: 3em;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .horarios__aranceles {
+    width: 100%;
+  }
+  .preguntas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .preguntas__protocolo {
+    background-color: #3AAF77;
+    color: #CED5C7;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    justify-self: center;
+    padding: 1fr;
+  }
+  .preguntas__consideraciones {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 3rem;
+  }
+  .preguntas__faq {
+    background-color: #65E298;
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .accordion-button {
+    font-size: .5em;
+  }
+  .accordion-body {
+    font-size: 1em;
+  }
+  /*----------ACTIVIDADES------------*/
+  .titulo__actividades {
+    font-size: 4rem;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*----------PRODUCTOS------------*/
+  .titulo__productos {
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*----------NOSOTROS------------*/
+  /*----------CONTACTO------------*/
+  .titulo__contacto {
+    font-size: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .formulario__mapa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+/*# sourceMappingURL=mediaquery1030.css.map */

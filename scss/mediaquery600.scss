@@ -1,0 +1,146 @@
+@media (max-width: 600px) {
+    /*----------GENERALES------------*/
+
+  header {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #65E298;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+
+    &:hover {
+      color: #3AAF77;
+    }
+  }
+
+  .logoNav {
+    background-color: transparent;
+    width: 10em;
+    height: 10em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .redes__sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    margin: 4em;
+
+    img {
+      margin: 1em;
+    }
+  }
+
+    /*----------HORARIOS------------*/
+
+  .titulo__horarios {
+    color: #3AAF77;
+    font-size: 3em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+
+  .horarios__aranceles {
+    width: 100%;
+  }
+
+  .preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+  }
+
+  .preguntas__protocolo {
+    background-color: #3AAF77;
+    color: #CED5C7;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    display: flex;
+    align-self: stretch;
+    justify-self: center;
+    padding: 1fr;
+  }
+
+  .preguntas__consideraciones {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem;
+  }
+
+  .preguntas__faq {
+    background-color: #65E298;
+    color: #000000;
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+
+  .accordion-button {
+    font-size: .5em;
+  }
+
+  .accordion-body {
+    font-size: 1em;
+  }
+
+    /*----------ACTIVIDADES------------*/
+
+  .titulo__actividades {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+
+    /*----------PRODUCTOS------------*/
+
+  .titulo__productos {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+
+    /*----------NOSOTROS------------*/
+
+    /*----------CONTACTO------------*/
+
+  .titulo__contacto {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .formulario__mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+
+}
