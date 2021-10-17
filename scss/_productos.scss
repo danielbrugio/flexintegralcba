@@ -1,0 +1,36 @@
+.titulo__productos {
+    color: $color_titulos;
+    font-size: $size_titulos/2;
+    display: flex;
+    justify-content: center;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25rem;
+    margin: 1em;
+}
+
+.producto__title {
+    color: black;
+    font-size: 2em;
+}
+
+.producto__text {
+    color: black;
+    font-size: 2em;
+}
+
+.producto__price {
+    color: black;
+    font-size: 2em;
+}

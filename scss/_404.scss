@@ -1,0 +1,20 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .error__titulo {
+       font-size: 14em;
+        width: 300px;
+    }
+    .error__parrafo {
+        margin: 20px;
+        font-size: 7em;
+        width: 1100px;
+    }
+    
+}
+
+
+
