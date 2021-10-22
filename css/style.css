@@ -215,9 +215,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
   width: 30%;
   margin: 1em;
 }
@@ -237,6 +237,7 @@
 .btn {
   font-size: 2em;
   background-color: #3AAF77;
+  border: none;
 }
 
 .titulo__productos {
@@ -357,43 +358,33 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
 
-.formulario__contacto {
+.contacto {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 50%;
-  margin: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.form-label {
-  font-size: 2em;
-}
-
-#nombre, #telefono, #consulta {
-  font-size: 1em;
-  width: 60em;
-}
-
-#consulta {
-  height: 20em;
+.contacto__icono {
+  width: 25rem;
+  color: #3AAF77;
+  margin: 0.5em;
 }
 
 .mapa {
   color: #3AAF77;
   font-size: 2rem;
-  width: 70rem;
-  height: 70rem;
+  width: 50%;
   margin: 2em;
 }
 

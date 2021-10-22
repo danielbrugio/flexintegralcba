@@ -23,7 +23,8 @@
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
+  text-align: center;
   width: 30%;
   margin: 1em;
 }
@@ -43,4 +44,5 @@
 .btn {
   font-size: 2em;
   background-color: #3AAF77;
+  border: none;
 }

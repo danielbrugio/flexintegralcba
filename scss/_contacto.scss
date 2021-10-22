@@ -9,35 +9,26 @@
 .formulario__mapa {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  
   flex-wrap: nowrap;
 }
 
-.formulario__contacto {
-  display: flex;
-  flex-direction: column;
+.contacto {
   width: 50%;
-  margin: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.form-label {
-  font-size: 2em;
-}
-
-#nombre, #telefono, #consulta {
-  font-size: 1em;
-  width: 60em;
-}
-
-#consulta {
-  height: 20em;
-}
+.contacto__icono {
+    width: 25rem;
+    color: #3AAF77;
+    margin: 0.5em;
+  }
 
 .mapa {
   color: $color_titulos;
   font-size: 2rem;
-  width: 70rem;
-  height: 70rem;
+  width: 50%;
   margin: 2em;
 }
 
