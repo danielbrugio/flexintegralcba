@@ -9,11 +9,11 @@
 .formulario__mapa {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .contacto {
-  width: 50%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
 .mapa {
   color: $color_titulos;
   font-size: 2rem;
-  width: 50%;
+  width: 35%;
   margin: 2em;
   text-align: center;
 }
