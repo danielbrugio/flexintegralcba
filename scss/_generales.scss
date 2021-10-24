@@ -85,5 +85,24 @@ header {
 
 }
 
+//404
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  .error__titulo {
+     font-size: 10em;
+      width: 100%;
+      text-align: center;
+  }
+  .error__parrafo {
+      margin: 1em;
+      font-size: 7em;
+      width: 100%;
+      text-align: center;
+  }
+  
+}
 
