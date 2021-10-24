@@ -9,8 +9,7 @@
 .formulario__mapa {
   display: flex;
   justify-content: space-between;
-  
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .contacto {
@@ -30,6 +29,7 @@
   font-size: 2rem;
   width: 50%;
   margin: 2em;
+  text-align: center;
 }
 
 .iframe__mapa {

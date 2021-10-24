@@ -3,6 +3,7 @@
     font-size: $size_titulos/2;
     display: flex;
     justify-content: center;
+    margin: 1em;
 }
 
 .productos {
@@ -23,6 +24,7 @@
 .producto__img-top {
     width: 20em;
     height: 20em;
+    align-self: center;
 }
 
 .producto__title {
