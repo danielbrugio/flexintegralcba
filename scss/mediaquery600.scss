@@ -1,123 +1,129 @@
 @media (max-width: 600px) {
-    /*----------GENERALES------------*/
+  /*----------GENERALES------------*/
 
-   //GENERALES
+  //GENERALES
 
-.navbar-nav {
-  background-color: white;
-}
-.navbar-collapse {
-  background-color: white;
-}
+  .navbar-nav {
+    background-color: white;
+  }
 
-.redes__sociales {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  align-content: center;
-  justify-content: center;
-}
+  .navbar-collapse {
+    background-color: white;
+  }
 
-.footer__horizontal {
-  display: none;
-}
+  .redes__sociales {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .footer__horizontal {
+    display: none;
+  }
 
 
-//INDEX
+  //INDEX
 
-#logo__principal {
-  width: 100%;
-  height: 100%;
-  padding: 2em;
-  margin: 2em;
-}
+  #logo__principal {
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+    margin: 2em;
+  }
 
-// HORARIOS Y ARANCELES
+  // HORARIOS Y ARANCELES
 
-.tablas__horarios {
-  flex-wrap: wrap;
-}
-.tabla__nombre {
-  font-size: 2em;
-}
+  .tablas__horarios {
+    flex-wrap: wrap;
+  }
 
-.tabla__titulo {
-  font-size: 1.5em;  
-}
-
-.tabla__horario, .tabla__actividad {
-  font-size: 1em;  
-}
-
-.aranceles {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  color: black;
-
-  h2 {
+  .tabla__nombre {
     font-size: 2em;
   }
 
-  p {
+  .tabla__titulo {
+    font-size: 1.5em;
+  }
+
+  .tabla__horario,
+  .tabla__actividad {
     font-size: 1em;
   }
-}
 
-.preguntas__protocolo {
-  font-size: 1.2em;
-}
+  .aranceles {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: black;
 
-.preguntas__consideraciones {
-  font-size: 1em;
-}
+    h2 {
+      font-size: 2em;
+    }
 
-.preguntas__faq {
-  font-size: 2em;
-}
+    p {
+      font-size: 1em;
+    }
+  }
 
-//ACTIVIDADES
+  .preguntas__protocolo {
+    font-size: 1.2em;
+  }
 
-.actividad {
-  width: 100%;
-}
+  .preguntas__consideraciones {
+    font-size: 1em;
+  }
 
-//PRODUCTOS
+  .preguntas__faq {
+    font-size: 2em;
+  }
 
-.productos {
-  justify-content: center;
-}
-// QUIENES SOMOS
+  //ACTIVIDADES
 
-.titulo__nosotros {
-  font-size: 2em;
-  margin: 1.5em;
-}
+  .actividad {
+    width: 100%;
+  }
 
-.nosotros {
-  flex-direction: column;
-}
+  //PRODUCTOS
 
-.nosotros__title {
-  font-size: 1.5em;
-}
+  .productos {
+    justify-content: center;
+  }
 
-.nosotros__text, .btn {
-  font-size: 1em;
-}
+  // QUIENES SOMOS
 
-//CONTACTO
+  .titulo__nosotros {
+    font-size: 2em;
+    margin: 1.5em;
+  }
 
-.titulo__contacto {
-  font-size: 2em;
-  margin: 1.5em;
-}
+  .nosotros {
+    flex-direction: column;
+  }
 
-.formulario__mapa {
-  flex-wrap: wrap;
-}
+  .nosotros__title {
+    font-size: 1.5em;
+  }
 
-.contacto, .mapa {
-  width: 100%;
-}
+  .nosotros__text,
+  .btn {
+    font-size: 1em;
+  }
+
+  //CONTACTO
+
+  .titulo__contacto {
+    font-size: 2em;
+    margin: 1.5em;
+  }
+
+  .formulario__mapa {
+    flex-wrap: wrap;
+  }
+
+  .contacto,
+  .mapa {
+    width: 100%;
+  }
 }

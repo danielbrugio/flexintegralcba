@@ -30,10 +30,10 @@
   flex-direction: column;
   flex-wrap: nowrap;
   color: black;
-  background: rgb(145,251,200);
-background: linear-gradient(180deg, rgba(145,251,200,1) 34%, rgba(183,255,212,1) 70%);
+  background: rgb(145, 251, 200);
+  background: linear-gradient(180deg, rgba(145, 251, 200, 1) 34%, rgba(183, 255, 212, 1) 70%);
   margin: 1em;
- }
+}
 
 .tabla__nombre {
   background-color: white;
@@ -44,13 +44,13 @@ background: linear-gradient(180deg, rgba(145,251,200,1) 34%, rgba(183,255,212,1)
 
 .tabla__titulo {
   text-align: center;
-  font-size: 3em;  
+  font-size: 3em;
 }
 
 .tabla__horario {
   text-align: center;
-  font-size: 2em;  
-  font-weight: bold;  
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .tabla__actividad {
@@ -65,7 +65,8 @@ background: linear-gradient(180deg, rgba(145,251,200,1) 34%, rgba(183,255,212,1)
   color: black;
   margin: 1em;
 
-  .aranceles__presencial, .aranceles__virtual {
+  .aranceles__presencial,
+  .aranceles__virtual {
     display: flex;
     flex-direction: column;
   }

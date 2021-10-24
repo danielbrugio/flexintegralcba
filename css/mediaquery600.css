@@ -40,7 +40,8 @@
   .tabla__titulo {
     font-size: 1.5em;
   }
-  .tabla__horario, .tabla__actividad {
+  .tabla__horario,
+  .tabla__actividad {
     font-size: 1em;
   }
   .aranceles {
@@ -90,7 +91,8 @@
   .nosotros__title {
     font-size: 1.5em;
   }
-  .nosotros__text, .btn {
+  .nosotros__text,
+  .btn {
     font-size: 1em;
   }
   .titulo__contacto {
@@ -101,7 +103,8 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .contacto, .mapa {
+  .contacto,
+  .mapa {
     width: 100%;
   }
 }
