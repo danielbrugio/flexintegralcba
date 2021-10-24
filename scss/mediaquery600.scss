@@ -126,4 +126,22 @@
   .mapa {
     width: 100%;
   }
+
+  //ERROR 404
+
+  .error {
+    margin: 3em;
+  }
+  .error__titulo {
+    font-size: 5em;
+     width: 100%;
+     text-align: center;
+     
+ }
+ .error__parrafo {
+     margin: 1em;
+     font-size: 3.5em;
+     width: 100%;
+     text-align: center;
+ }
 }

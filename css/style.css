@@ -422,14 +422,16 @@
 }
 
 .error .error__titulo {
-  font-size: 14em;
-  width: 300px;
+  font-size: 10em;
+  width: 100%;
+  text-align: center;
 }
 
 .error .error__parrafo {
-  margin: 20px;
+  margin: 1em;
   font-size: 7em;
-  width: 1100px;
+  width: 100%;
+  text-align: center;
 }
 
 /*--------------- RESET -------------*/
