@@ -96,19 +96,5 @@
   .mapa {
     width: 100%;
   }
-  .error {
-    margin: 3em;
-  }
-  .error__titulo {
-    font-size: 7.5em;
-    width: 100%;
-    text-align: center;
-  }
-  .error__parrafo {
-    margin: 1em;
-    font-size: 5em;
-    width: 100%;
-    text-align: center;
-  }
 }
 /*# sourceMappingURL=mediaquery1030.css.map */
