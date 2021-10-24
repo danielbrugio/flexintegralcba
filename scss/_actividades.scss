@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   color: $color_titulos;
+  margin: 1em;
 }
 
 .actividades {
@@ -26,7 +27,7 @@
   align-content: center;
   text-align: center;
   width: 30%;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 .actividad__nombre {

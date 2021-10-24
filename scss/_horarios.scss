@@ -7,6 +7,7 @@
   display: flex;
   flex: row wrap;
   justify-content: center;
+  margin: 1em;
 }
 
 .horarios__aranceles {
@@ -62,6 +63,7 @@ background: linear-gradient(180deg, rgba(145,251,200,1) 34%, rgba(183,255,212,1)
   justify-content: space-evenly;
   align-content: center;
   color: black;
+  margin: 1em;
 
   .aranceles__presencial, .aranceles__virtual {
     display: flex;
@@ -94,20 +96,21 @@ background: linear-gradient(180deg, rgba(145,251,200,1) 34%, rgba(183,255,212,1)
   align-self: stretch;
   justify-self: center;
   padding: 1fr;
+  margin: 1em;
 }
 
 .preguntas__consideraciones {
   color: $color_parrafo;
   font-size: $size_parrafo/2;
   font-weight: bold;
-  margin: 3rem;
+  margin: 3em;
 }
 
 .preguntas__faq {
   background-color: #65E298;
   color: $color_parrafo;
   font-size: $size_titulos/2;
-  margin: 1rem;
+  margin: 1em;
 }
 
 .accordion-button {
