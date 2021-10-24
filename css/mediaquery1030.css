@@ -24,75 +24,63 @@
   .footer__horizontal {
     display: none;
   }
-}
-
-.tabla__nombre {
-  font-size: 3em;
-}
-
-.tabla__titulo {
-  font-size: 2em;
-}
-
-.tabla__horario, .tabla__actividad {
-  font-size: 1.5em;
-}
-
-.aranceles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  color: black;
-}
-
-.aranceles h2 {
-  font-size: 3em;
-}
-
-.aranceles p {
-  font-size: 1.5em;
-}
-
-.preguntas__protocolo {
-  font-size: 2em;
-}
-
-.preguntas__consideraciones {
-  font-size: 1.5em;
-}
-
-.preguntas__faq {
-  font-size: 3em;
-}
-
-.actividad {
-  width: 50%;
-}
-
-.titulo__nosotros {
-  font-size: 3em;
-  margin: 1.5em;
-}
-
-.nosotros__title {
-  font-size: 2.5em;
-}
-
-.nosotros__text, .btn {
-  font-size: 1.5em;
-}
-
-.titulo__contacto {
-  font-size: 2.5em;
-  margin: 1.5em;
-}
-
-.contacto, .mapa {
-  width: 100%;
+  .tabla__nombre {
+    font-size: 3em;
+  }
+  .tabla__titulo {
+    font-size: 2em;
+  }
+  .tabla__horario,
+  .tabla__actividad {
+    font-size: 1.5em;
+  }
+  .aranceles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    color: black;
+  }
+  .aranceles h2 {
+    font-size: 3em;
+  }
+  .aranceles p {
+    font-size: 1.5em;
+  }
+  .preguntas__protocolo {
+    font-size: 2em;
+  }
+  .preguntas__consideraciones {
+    font-size: 1.5em;
+  }
+  .preguntas__faq {
+    font-size: 3em;
+  }
+  .actividad {
+    width: 50%;
+  }
+  .titulo__nosotros {
+    font-size: 3em;
+    margin: 1.5em;
+  }
+  .nosotros__title {
+    font-size: 2.5em;
+  }
+  .nosotros__text,
+  .btn {
+    font-size: 1.5em;
+  }
+  .titulo__contacto {
+    font-size: 2.5em;
+    margin: 1.5em;
+  }
+  .contacto,
+  .mapa {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=mediaquery1030.css.map */

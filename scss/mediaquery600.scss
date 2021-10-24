@@ -21,7 +21,7 @@
 .footer__horizontal {
   display: none;
 }
-}
+
 
 //INDEX
 
@@ -34,6 +34,9 @@
 
 // HORARIOS Y ARANCELES
 
+.tablas__horarios {
+  flex-wrap: wrap;
+}
 .tabla__nombre {
   font-size: 2em;
 }
@@ -51,9 +54,7 @@
   justify-content: space-evenly;
   align-content: center;
   color: black;
-}
 
-  .aranceles {
   h2 {
     font-size: 2em;
   }
@@ -78,7 +79,7 @@
 //ACTIVIDADES
 
 .actividad {
-  width: 50%;
+  width: 100%;
 }
 
 // QUIENES SOMOS
@@ -109,4 +110,5 @@
 
 .contacto, .mapa {
   width: 100%;
+}
 }

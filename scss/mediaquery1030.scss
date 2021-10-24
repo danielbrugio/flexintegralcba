@@ -3,97 +3,102 @@
 
   //GENERALES
 
-.navbar-nav {
-  background-color: white;
-}
-.navbar-collapse {
-  background-color: white;
-}
+  .navbar-nav {
+    background-color: white;
+  }
 
-.redes__sociales {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  align-content: center;
-  justify-content: center;
-}
+  .navbar-collapse {
+    background-color: white;
+  }
 
-.footer__horizontal {
-  display: none;
-}
-}
+  .redes__sociales {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+  }
 
-// HORARIOS Y ARANCELES
+  .footer__horizontal {
+    display: none;
+  }
 
-.tabla__nombre {
-  font-size: 3em;
-}
 
-.tabla__titulo {
-  font-size: 2em;  
-}
+  // HORARIOS Y ARANCELES
 
-.tabla__horario, .tabla__actividad {
-  font-size: 1.5em;  
-}
-
-.aranceles {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  color: black;
-}
-
-  .aranceles {
-  h2 {
+  .tabla__nombre {
     font-size: 3em;
   }
 
-  p {
+  .tabla__titulo {
+    font-size: 2em;
+  }
+
+  .tabla__horario,
+  .tabla__actividad {
     font-size: 1.5em;
   }
-}
 
-.preguntas__protocolo {
-  font-size: 2em;
-}
+  .aranceles {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    color: black;
+  }
 
-.preguntas__consideraciones {
-  font-size: 1.5em;
-}
+  .aranceles {
+    h2 {
+      font-size: 3em;
+    }
 
-.preguntas__faq {
-  font-size: 3em;
-}
+    p {
+      font-size: 1.5em;
+    }
+  }
 
-//ACTIVIDADES
+  .preguntas__protocolo {
+    font-size: 2em;
+  }
 
-.actividad {
-  width: 50%;
-}
+  .preguntas__consideraciones {
+    font-size: 1.5em;
+  }
 
-// PRODUCTOS
+  .preguntas__faq {
+    font-size: 3em;
+  }
 
-.titulo__nosotros {
-  font-size: 3em;
-  margin: 1.5em;
-}
+  //ACTIVIDADES
 
-.nosotros__title {
-  font-size: 2.5em;
-}
+  .actividad {
+    width: 50%;
+  }
 
-.nosotros__text, .btn {
-  font-size: 1.5em;
-}
+  // PRODUCTOS
 
-//CONTACTO
+  .titulo__nosotros {
+    font-size: 3em;
+    margin: 1.5em;
+  }
 
-.titulo__contacto {
-  font-size: 2.5em;
-  margin: 1.5em;
-}
+  .nosotros__title {
+    font-size: 2.5em;
+  }
 
-.contacto, .mapa {
-  width: 100%;
+  .nosotros__text,
+  .btn {
+    font-size: 1.5em;
+  }
+
+  //CONTACTO
+
+  .titulo__contacto {
+    font-size: 2.5em;
+    margin: 1.5em;
+  }
+
+  .contacto,
+  .mapa {
+    width: 100%;
+  }
 }

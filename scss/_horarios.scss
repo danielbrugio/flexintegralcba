@@ -17,7 +17,7 @@
 .tablas__horarios {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .table-bordered {
